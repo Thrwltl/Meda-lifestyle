@@ -1,0 +1,4 @@
+{"name":"meda-lifestyle","version":"1.0.0","private":true,
+"scripts":{"dev":"next dev","build":"prisma generate && next build","start":"next start","db:push":"prisma db push","db:seed":"tsx prisma/seed.ts"},
+"dependencies":{"next":"14.2.15","react":"^18.3.1","react-dom":"^18.3.1","@prisma/client":"^5","next-auth":"^4","bcryptjs":"^2","groq-sdk":"latest","zod":"^3"},
+"devDependencies":{"typescript":"^5","@types/node":"^20","@types/react":"^18","@types/react-dom":"^18","prisma":"^5","tsx":"^4","@types/bcryptjs":"^2"}}
